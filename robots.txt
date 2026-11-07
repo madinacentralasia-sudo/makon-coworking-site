@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /data/
+Disallow: /templates/
+Sitemap: https://makoncoworking.uz/sitemap.xml

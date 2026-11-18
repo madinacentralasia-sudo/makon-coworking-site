@@ -4,8 +4,8 @@
 //
 // Sozlamalar (Project Settings → Script properties):
 //   TG_TOKEN     — Telegram bot kaliti (maxfiy, faqat egasi kiritadi)
-//   TG_CHAT_ID   — guruh ID raqami
-//   TG_THREAD_ID — "Makon arizalar" mavzusining ID raqami
+//   TG_CHAT_ID   — arizalar keladigan Telegram chat ID (hozir Kamolaning shaxsiy chati)
+//   TG_THREAD_ID — (ixtiyoriy) guruh mavzusi ID raqami, guruhga yuborilsa
 
 function doPost(e) {
   var p = (e && e.parameter) || {};
@@ -66,15 +66,20 @@ function javob_(t) {
   return ContentService.createTextOutput(t);
 }
 
-// Bot guruhga qo'shilib, "Makon arizalar" mavzusiga /start yozilgandan keyin bir marta ishga tushiriladi.
-// Jurnalga guruh ID va mavzu ID'sini chiqaradi.
+// Bot ochilib, unga /start yozilgandan keyin bir marta ishga tushiriladi.
+// Jurnalga (Execution log) chat ID'sini chiqaradi — uni TG_CHAT_ID ga yoziladi.
 function guruhniTopish() {
   var token = PropertiesService.getScriptProperties().getProperty('TG_TOKEN');
   var r = UrlFetchApp.fetch('https://api.telegram.org/bot' + token + '/getUpdates', { muteHttpExceptions: true });
   var upd = JSON.parse(r.getContentText()).result || [];
+  var jj = JSON.parse(r.getContentText());
+  Logger.log('Kod: ' + r.getResponseCode() + ' | ok: ' + jj.ok + ' | ' + (jj.description || '') + ' | kalit uzunligi: ' + (token ? token.length : 0));
+  var me = JSON.parse(UrlFetchApp.fetch('https://api.telegram.org/bot' + token + '/getMe', { muteHttpExceptions: true }).getContentText());
+  Logger.log('Bot: @' + (me.result ? me.result.username : '?'));
+  Logger.log('Topildi: ' + upd.length);
   upd.forEach(function (u) {
     var m = u.message || u.my_chat_member;
     if (!m || !m.chat) return;
-    console.log(m.chat.id + ' | ' + (m.chat.title || '') + ' | mavzu: ' + (m.message_thread_id || '-') + ' | ' + (m.text || ''));
+    Logger.log(m.chat.id + ' | ' + (m.chat.title || '') + ' | mavzu: ' + (m.message_thread_id || '-') + ' | ' + (m.text || ''));
   });
 }

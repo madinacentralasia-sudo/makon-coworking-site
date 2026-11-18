@@ -257,7 +257,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
 </div>
 <iframe title="Makon xaritada" src="https://maps.google.com/maps?q=Toshkent%2C%20Lashkarbegi%20ko%27chasi%2011&amp;z=16&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style="width: 100%; height: 200px; border: 0; border-radius: 28px; display: block"></iframe>
 </div>
-<form action="https://formsubmit.co/madinacentralasia@gmail.com" method="POST" style="display: flex; flex-direction: column; gap: 16px; padding: 40px; border-radius: 36px; background: #F7EFE5; color: #2B211B; align-self: start">
+<form action="https://script.google.com/macros/s/AKfycbxOZ6iUBdGVYyJftiXCbD7vxhlRuWGZ74aUuGEcFKrzTz6huFkIfjBYdWhreywO2Oqe/exec" method="POST" data-ariza style="display: flex; flex-direction: column; gap: 16px; padding: 40px; border-radius: 36px; background: #F7EFE5; color: #2B211B; align-self: start">
 <h3 style="margin: 0 0 4px; font-size: 28px; font-weight: 800; letter-spacing: -0.02em">Tashrifga yoziling</h3>
 <label for="ism2" style="display: flex; flex-direction: column; gap: 6px; font-size: 14px; font-weight: 600">Ismingiz
 <input id="ism2" name="ism" type="text" placeholder="Ism" required autocomplete="name" style="font: inherit; font-size: 16px; font-weight: 400; min-height: 52px; padding: 0 20px; border-radius: 999px; border: 0; background: #FFFFFF; color: #2B211B">
@@ -276,7 +276,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
 <option>Boshqa savol</option>
 </select>
 </label>
-<input type="hidden" name="_subject" value="Makon saytidan yangi ariza"><input type="hidden" name="_next" value="https://makoncoworking.uz/rahmat.html"><input type="hidden" name="_template" value="table"><input type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px"><button type="submit" style="font: inherit; font-weight: 700; min-height: 58px; margin-top: 6px; border: 0; border-radius: 999px; background: #B4572F; color: #FFFFFF; cursor: pointer">Yuborish</button>
+<input type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px"><button type="submit" style="font: inherit; font-weight: 700; min-height: 58px; margin-top: 6px; border: 0; border-radius: 999px; background: #B4572F; color: #FFFFFF; cursor: pointer">Yuborish</button>
 </form>
 </div>
 </section>
@@ -301,5 +301,22 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
 </footer>
 
 </div>
+<script>
+(function () {
+  var URL = 'https://script.google.com/macros/s/AKfycbxOZ6iUBdGVYyJftiXCbD7vxhlRuWGZ74aUuGEcFKrzTz6huFkIfjBYdWhreywO2Oqe/exec';
+  document.querySelectorAll('form[data-ariza]').forEach(function (f) {
+    f.addEventListener('submit', function (ev) {
+      ev.preventDefault();
+      var b = f.querySelector('button[type="submit"]');
+      if (b) { b.disabled = true; b.textContent = 'Yuborilmoqda...'; }
+      fetch(URL, { method: 'POST', mode: 'no-cors', body: new URLSearchParams(new FormData(f)) })
+        .then(function () { location.href = 'rahmat.html'; })
+        .catch(function () {
+          if (b) { b.disabled = false; b.textContent = 'Qayta yuborish'; }
+        });
+    });
+  });
+})();
+</script>
 </body>
 </html>

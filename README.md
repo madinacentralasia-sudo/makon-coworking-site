@@ -18,7 +18,7 @@ Makon kovorkingining rasmiy sayti (Toshkent, Lashkarbegi ko'chasi, 11).
 
 ## Joylash
 Hosting: GitHub Pages (bepul). Domen makoncoworking.uz ahost.uz'da ro'yxatdan o'tgan, DNS orqali shu repozitoriyga ulangan.
-Ariza formasi formsubmit.co orqali madinacentralasia@gmail.com ga keladi.
+Ariza formasi Google Apps Script orqali "Makon — saytdan arizalar" jadvaliga yoziladi va Telegram'ga xabar bo'lib keladi (kod: `scripts/arizalar.gs`).
 
 ## O'zgartirish tartibi
 O'zgarish taklif qilinadi → "roziman" so'zidan keyin kiritiladi → avval shu repozitoriyga, keyin saytga.

@@ -83,3 +83,18 @@ function guruhniTopish() {
     Logger.log(m.chat.id + ' | ' + (m.chat.title || '') + ' | mavzu: ' + (m.message_thread_id || '-') + ' | ' + (m.text || ''));
   });
 }
+
+// Telegram ulanishini tekshirish: sinov xabar yuboradi va javobni jurnalga yozadi.
+function telegramSinov() {
+  var pr = PropertiesService.getScriptProperties();
+  var token = pr.getProperty('TG_TOKEN');
+  var chat = pr.getProperty('TG_CHAT_ID');
+  var r = UrlFetchApp.fetch('https://api.telegram.org/bot' + token + '/sendMessage', {
+    method: 'post',
+    contentType: 'application/json',
+    payload: JSON.stringify({ chat_id: chat, text: 'Makon arizalar: sinov xabari' }),
+    muteHttpExceptions: true
+  });
+  var j = JSON.parse(r.getContentText());
+  Logger.log('Kod: ' + r.getResponseCode() + ' | ok: ' + j.ok + ' | ' + (j.description || '') + ' | chat: ' + chat);
+}

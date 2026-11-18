@@ -1,4 +1,6 @@
 User-agent: *
 Disallow: /data/
 Disallow: /templates/
+Disallow: /tools/
+Disallow: /scripts/
 Sitemap: https://makoncoworking.uz/sitemap.xml

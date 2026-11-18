@@ -16,6 +16,7 @@ function doPost(e) {
   if (!ism || !tel) return javob_('empty');
   var faol = (p.faoliyat || '').trim();
   var qiz = (p.qiziqish || '').trim();
+  var til = (p.til || '').trim().toLowerCase();
   var vaqt = Utilities.formatDate(new Date(), 'Asia/Tashkent', 'dd.MM.yyyy, HH:mm');
 
   var lock = LockService.getScriptLock();
@@ -29,14 +30,14 @@ function doPost(e) {
   }
 
   try {
-    telegram_(vaqt, ism, tel, faol, qiz);
+    telegram_(vaqt, ism, tel, faol, qiz, til);
   } catch (err) {
     console.error(err);
   }
   return javob_('ok');
 }
 
-function telegram_(vaqt, ism, tel, faol, qiz) {
+function telegram_(vaqt, ism, tel, faol, qiz, til) {
   var pr = PropertiesService.getScriptProperties();
   var token = pr.getProperty('TG_TOKEN');
   var chat = pr.getProperty('TG_CHAT_ID');
@@ -48,6 +49,7 @@ function telegram_(vaqt, ism, tel, faol, qiz) {
     'Telefon: ' + tel + '\n' +
     'Faoliyat: ' + (faol || '—') + '\n' +
     'Qiziqish: ' + (qiz || '—') + '\n' +
+    (til && til !== 'uz' ? 'Til: ' + til.toUpperCase() + '\n' : '') +
     'Sana: ' + vaqt;
 
   var data = { chat_id: chat, text: matn };

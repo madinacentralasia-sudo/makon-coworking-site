@@ -13,6 +13,7 @@ Makon kovorkingining rasmiy sayti (Toshkent, Lashkarbegi ko'chasi, 11).
 | `hayot.html` | Makon hayotida (maqolalar) |
 | `aloqa.html` | Aloqa va ariza formasi |
 | `rahmat.html` | Ariza yuborilgandan keyingi sahifa |
+| `ru/`, `en/` | Rus va ingliz tilidagi sahifalar (o'zbekchadan yasalgan, tepada UZ · RU · EN almashtirgich) |
 | `assets/` | Rasmlar, to'lov QR kodi |
 | `templates/maqola-namuna.html` | Yangi maqola uchun namuna |
 

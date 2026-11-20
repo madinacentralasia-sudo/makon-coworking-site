@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # Tarjimalar: strings.json tartibida (0..257). Har bir qator: (ru, en). None = o'zgarmaydi.
 T = [
- ("Makon — коворкинг в центре Ташкента", "Makon — a coworking space in central Tashkent"),  # 0
+ ("Makon Coworking — коворкинг в центре Ташкента", "Makon Coworking — a coworking space in central Tashkent"),  # 0
  ("Makon — коворкинг в центре Ташкента, улица Лашкарбеги, 11. Своё постоянное рабочее место, спокойная атмосфера, кофе и книги. Членство: $250 / мес, для турагентов — $350 / мес.",
   "Makon — a coworking space in central Tashkent, 11 Lashkarbegi Street. Your own dedicated desk, a calm atmosphere, coffee and books. Membership: $250 / month, for travel agents $350 / month."),  # 1
  (None, None),  # 2 makon
@@ -189,7 +189,7 @@ T = [
  ("3 · Подтвердите оплату", "3 · Confirm the payment"),  # 177
  ("Чтобы продлить членство, оплату нужно внести не позднее чем за 1 день до окончания срока.", "To extend your membership, pay at least 1 day before your current term ends."),  # 178
  ("Ташкент, улица Лашкарбеги, 11 · +998 99 070 44 41", "11 Lashkarbegi Street, Tashkent · +998 99 070 44 41"),  # 179
- ("О пространстве — Makon", "About — Makon"),  # 180
+ ("О пространстве — Makon Coworking", "About — Makon Coworking"),  # 180
  ("Главная", "Home"),  # 181
  (None, None),  # 182 /
  ("Знакомство", "Get to know"),  # 183
@@ -218,11 +218,11 @@ T = [
  ("Оплата вносится не позднее чем за 1 день до окончания срока.", "Payment is made at least 1 day before the term ends."),  # 204
  ("улица Лашкарбеги, 11 · 10:00–19:00, кроме воскресенья", "11 Lashkarbegi Street · 10:00–19:00, except Sunday"),  # 205
  ("Записаться на визит", "Book a visit"),  # 206
- ("Фотогалерея — Makon", "Gallery — Makon"),  # 207
+ ("Фотогалерея — Makon Coworking", "Gallery — Makon Coworking"),  # 207
  ("в фотографиях", "in photos"),  # 208
  ("Makon изнутри — рабочий зал, кофейный уголок, книжная полка и другие места.", "Inside Makon — the work hall, coffee corner, bookshelf and more."),  # 209
  ("Фотографии скоро появятся — пока следите за нами в Instagram:", "Photos are coming soon — for now, follow us on Instagram:"),  # 210
- ("Членство — Makon", "Membership — Makon"),  # 211
+ ("Членство — Makon Coworking", "Membership — Makon Coworking"),  # 211
  ("Станьте резидентом", "Become a"),  # 212
  ("Makon", "Makon resident"),  # 213
  ("Сравнение", "Comparison"),  # 214
@@ -246,25 +246,25 @@ T = [
  ("Оплатите следующий месяц не позднее чем за 1 день до окончания срока.", "Pay for the next month at least 1 day before your term ends."),  # 232
  ("Входит ли курс в членство?", "Is the course included in membership?"),  # 233
  ("Нет. Курс «Kasbiy mahoratni oshirish» оплачивается отдельно.", "No. The “Kasbiy mahoratni oshirish” course is paid for separately."),  # 234
- ("Резиденты — Makon", "Residents — Makon"),  # 235
+ ("Резиденты — Makon Coworking", "Residents — Makon Coworking"),  # 235
  ("резиденты", "residents"),  # 236 (h1 maxsus)
  ("Люди, которые работают в Makon, — их отзывы, фотографии и видео.", "People who work at Makon — their reviews, photos and videos."),  # 237
  (None, None),  # 238 “
  ("Первые отзывы скоро", "First reviews coming soon"),  # 239
  ("Makon только открывается. Здесь появятся отзывы, фотографии и видео наших резидентов.", "Makon is just opening. Our residents' reviews, photos and videos will appear here."),  # 240
  ("Станьте одним из первых", "Be one of the first"),  # 241
- ("Жизнь Makon — Makon", "Life at Makon — Makon"),  # 242
+ ("Жизнь Makon — Makon Coworking", "Life at Makon — Makon Coworking"),  # 242
  ("жизнь", "life"),  # 243 (h1 maxsus)
  ("Статьи о том, что происходит в Makon.", "Articles about what's happening at Makon."),  # 244
  ("Первые статьи скоро", "First articles coming soon"),  # 245
  ("Здесь мы будем писать о событиях, встречах и новостях Makon.", "Here we'll write about events, meetups and news at Makon."),  # 246
  ("Следите за нами в Instagram", "Follow us on Instagram"),  # 247
- ("Контакты — Makon", "Contact — Makon"),  # 248
+ ("Контакты — Makon Coworking", "Contact — Makon Coworking"),  # 248
  ("Приходите.", "Come and see."),  # 249
  ("Почувствуйте разницу.", "Feel the difference."),  # 250
  ("Приходите в Makon или оставьте заявку — мы с вами свяжемся.", "Visit Makon or leave a request — we'll get in touch with you."),  # 251
  ("Ваша заявка дойдёт до нас, и мы с вами свяжемся.", "Your request will reach us and we'll get in touch."),  # 252
- ("Спасибо — Makon", "Thank you — Makon"),  # 253
+ ("Спасибо — Makon Coworking", "Thank you — Makon Coworking"),  # 253
  ("Спасибо — Makon, улица Лашкарбеги, 11. Своё постоянное рабочее место, спокойная атмосфера, кофе и книги. Членство: $250 / мес, для турагентов — $350 / мес.",
   "Thank you — Makon, 11 Lashkarbegi Street. Your own dedicated desk, a calm atmosphere, coffee and books. Membership: $250 / month, for travel agents $350 / month."),  # 254
  ("Спасибо! Ваша заявка принята", "Thank you! Your request has been received"),  # 255

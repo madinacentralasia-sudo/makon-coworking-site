@@ -75,7 +75,7 @@ T = [
  ("Постоянное место и личный шкафчик — только ваши.", "Your dedicated desk and locker are yours alone."),  # 71
  ("В течение дня", "During the day"),  # 72
  ("Спокойная и продуктивная работа", "Calm, productive work"),  # 73
- ("Стабильный Wi-Fi, бесплатный принтер и тишина.", "Reliable Wi-Fi, a free printer and quiet surroundings."),  # 74
+ ("Wi-Fi, бесплатный принтер и тишина.", "Wi-Fi, a free printer and quiet surroundings."),  # 74
  ("Перерыв", "Break"),  # 75
  ("Кофе и книга", "Coffee and a book"),  # 76
  ("За кофе в перерыве начинаются новые знакомства.", "New acquaintances start over a coffee break."),  # 77

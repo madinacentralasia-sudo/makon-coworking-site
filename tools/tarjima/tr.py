@@ -139,7 +139,7 @@ T = [
  ("Расписание", "Schedule"),  # 135
  ("3 раза в неделю", "3 times a week"),  # 136
  ("Стоимость курса", "Course price"),  # 137
- ("3 500 000 сум", "UZS 3,500,000"),  # 138
+ (None, None),  # 138 $450
  ("Курс не входит в членство и оплачивается отдельно.", "The course is not included in membership and is paid for separately."),  # 139
  ("Всё начинается со знакомства", "It starts with getting to know each other"),  # 140
  ("Оставьте заявку", "Leave a request"),  # 141

@@ -234,7 +234,7 @@ T = [
  ("Фотогалерея — Makon Coworking", "Gallery — Makon Coworking"),  # 230
  ("в фотографиях", "in photos"),  # 231
  ("Makon изнутри — рабочий зал, кофейный уголок, книжная полка и другие места.", "Inside Makon — the work hall, coffee corner, bookshelf and more."),  # 232
- ("Фотографии скоро появятся — пока следите за нами в Instagram:", "Photos are coming soon — for now, follow us on Instagram:"),  # 233
+ ("Больше фото и видео — в Instagram:", "More photos and videos on Instagram:"),  # 233
  ("Членство — Makon Coworking", "Membership — Makon Coworking"),  # 234
  ("Цены на членство в Makon: для резидентов $250/мес, для турагентов $350/мес. У каждого резидента своё постоянное место. Всего 15 мест.", "Makon membership prices: $250/month for residents, $350/month for travel agents. Every resident gets a dedicated desk. 15 desks in total."),  # 235
  ("Станьте резидентом", "Become a"),  # 236
@@ -313,4 +313,8 @@ T = [
  ("Вы поработаете в реальных системах бронирования туроператоров. Учебник и рабочая тетрадь выдаются в печатном виде, в конце курса — сертификат.", "You work in real tour operators' booking systems. The student book and workbook are given in print, and you receive a certificate at the end."),  # 307
  ("Коротко:", "In short:"),  # 308
  ("13 занятий, 15 тем · 8 человек в группе · 3 раза в неделю · стоимость $450 (не входит в членство Makon, оплачивается отдельно).", "13 lessons, 15 topics · 8 people per group · 3 times a week · price $450 (not included in Makon membership, paid separately)."),  # 309
+# Fotogalereya (2026-11-21)
+ ("Внутри Makon: рабочие места с компьютерами и надпись MAKON на стене", "Inside Makon: desks with computers and the MAKON sign on the wall"),  # 310
+ ("Вход в Makon и вывеска", "Makon entrance and sign"),  # 311
+ ("Внутри Makon: длинный рабочий стол и кресла", "Inside Makon: a long work table and armchairs"),  # 312
 ]

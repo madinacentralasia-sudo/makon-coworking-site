@@ -24,7 +24,7 @@ SITE_ID = DOMAIN + '#website'
 # ---- Hamma tilda bir xil faktlar ----
 FAKTLAR = {
     'telephone': ['+998990704441', '+998957474441'],
-    'geo': {'@type': 'GeoCoordinates', 'latitude': 41.3209485, 'longitude': 69.2959206},
+    'geo': {'@type': 'GeoCoordinates', 'latitude': 41.320518, 'longitude': 69.29376},
     'openingHoursSpecification': [{
         '@type': 'OpeningHoursSpecification',
         'dayOfWeek': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],

@@ -1,23 +1,26 @@
 # Makon Coworking
 
-> Makon is a coworking space in central Tashkent, Uzbekistan, at 11 Lashkarbegi Street (Lashkarbegi ko'chasi, 11). Every resident has their own dedicated desk. The website is in Uzbek, Russian and English.
+> Makon is a coworking space in central Tashkent, Uzbekistan, at 11 Lashkarbegi Street (Lashkarbegi ko'chasi, 11), in the Akai City residential complex, a 2-minute walk from Hamid Olimjon metro station. Every resident has their own dedicated desk. The website is in Uzbek, Russian and English.
 
 ## Key facts
 
-- Name: Makon Coworking (also "Makon", "Makon kovorking")
+- Name: Makon Coworking (also "Makon", "Makon kovorking", "Коворкинг Makon")
 - Address: 11 Lashkarbegi Street, Akai City residential complex, Tashkent, Uzbekistan
+- Address in Uzbek: Toshkent, Lashkarbegi ko'chasi, 11, Akai City turar-joy majmuasi
+- Address in Russian: Ташкент, улица Лашкарбеги, 11, ЖК Akai City
 - Getting there: 2-minute walk from Hamid Olimjon metro station; parking available
 - Opening hours: Monday to Saturday, 10:00–19:00; closed on Sunday
 - Desks: 15, each assigned to one resident
 - Included for residents: dedicated desk, Wi-Fi, free printer, free personal locker, books for residents
 - Phone: +998 99 070 44 41, +998 95 747 44 41
+- Website: https://makoncoworking.uz/
 - Instagram: https://www.instagram.com/makon_coworking/
 - Yandex Maps: https://yandex.uz/maps/org/233840017594/
 
 ## Membership (monthly)
 
 - Makon residents: $250 per month — dedicated desk, Wi-Fi, free printer, free personal locker, books, resident community.
-- Travel agents: $350 per month — everything residents get, plus a licence to operate, financial, legal and organisational services, and ready client requests. Agents work from Makon without opening their own office.
+- Travel agents: $350 per month — everything residents get, plus a permanently assigned desk for meeting clients, a licence to operate, financial, legal and organisational services, and ready client requests. Agents work from Makon without opening their own office.
 - Payment: QR code (UzQR) only; cash is not accepted.
 
 ## Additional services
@@ -27,6 +30,15 @@ SMM, marketing, and a microphone and other equipment for video and podcasts. Ask
 ## Who it is for
 
 People who have their own work and want to grow: students, targeting specialists, freelancers, entrepreneurs and people starting out as travel agents.
+
+## Common questions
+
+- Where is Makon? 11 Lashkarbegi Street, Akai City residential complex, Tashkent. 2 minutes on foot from Hamid Olimjon metro; parking available.
+- When is it open? Every day except Sunday, 10:00–19:00.
+- How much does it cost? $250 per month for Makon residents, $350 per month for travel agents.
+- Is the desk my own? Yes. Every resident gets a dedicated desk; there are 15 desks in total.
+- How do I pay? By QR code (UzQR) from a banking app. Cash is not accepted.
+- Can I visit before joining? Yes. Book a visit on the contact page (https://makoncoworking.uz/aloqa.html) or call +998 99 070 44 41.
 
 ## Pages
 
@@ -39,3 +51,5 @@ People who have their own work and want to grow: students, targeting specialists
 - [Life at Makon (articles)](https://makoncoworking.uz/hayot.html)
 - Russian version: https://makoncoworking.uz/ru/
 - English version: https://makoncoworking.uz/en/
+
+Last updated: 2026-11-21

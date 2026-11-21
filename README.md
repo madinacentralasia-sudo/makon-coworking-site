@@ -23,3 +23,10 @@ Ariza formasi Google Apps Script orqali "Makon — saytdan arizalar" jadvaliga y
 
 ## O'zgartirish tartibi
 O'zgarish taklif qilinadi → "roziman" so'zidan keyin kiritiladi → avval shu repozitoriyga, keyin saytga.
+
+## Qidiruv tizimlari va AI (GEO)
+- `tools/tarjima/seo.py` — canonical, `rahmat` sahifalarida noindex, bosh sahifa va Aloqada LocalBusiness (3 tilda), WebSite ma'lumotlari, `sitemap.xml`. `build.py` har ishga tushganda avtomatik qo'llaydi.
+- Faktlar (manzil, telefon, ish vaqti, narx) o'zgarsa: sahifa matni + `seo.py` (FAKTLAR, TIL) + `llms.txt` — uchalasi birga yangilanadi.
+- `llms.txt` — AI uchun Makon haqida qisqa faktlar.
+- IndexNow kaliti: `cc4c4b194a14819384667ce4a5974e10.txt` (Bing, Yandex va boshqa IndexNow qidiruvlariga yangi sahifalar haqida xabar berish uchun). Faylni o'chirmang.
+- Google Search Console va Yandex Webmaster tasdiqlash kodlari `index.html` ichida (`google-site-verification`, `yandex-verification`) — o'chirmang.

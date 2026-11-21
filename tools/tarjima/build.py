@@ -8,6 +8,7 @@ SITE = sys.argv[1]
 WORK = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, WORK)
 from tr import T
+import seo
 
 STR = json.load(open(os.path.join(WORK, 'strings.json'), encoding='utf-8'))
 assert len(STR) == len(T), (len(STR), len(T))
@@ -100,6 +101,8 @@ def common(src, lang, page):
     src = re.sub(r'<input type="hidden" name="til" value="[a-z]+">', '', src)
     src = re.sub(r'(<input type="text" name="_honey"[^>]*>)',
                  lambda mo: mo.group(1) + '<input type="hidden" name="til" value="%s">' % lang, src)
+    # qidiruv va AI uchun belgilar (canonical, JSON-LD, noindex) — tools/tarjima/seo.py
+    src = seo.apply(src, lang, page)
     return src
 
 
@@ -136,4 +139,5 @@ for page in PAGES:
         out = build_lang(uz_clean, lang, page)
         os.makedirs(os.path.join(SITE, lang), exist_ok=True)
         open(os.path.join(SITE, lang, page), 'w', encoding='utf-8').write(out)
+seo.write_sitemap(SITE)
 print('ok')

@@ -18,7 +18,8 @@ for s, (ru, en) in zip(STR, T):
     MAP['en'][s] = en if en is not None else s
 
 PAGES = ['index.html', 'makon.html', 'galereya.html', 'azolik.html',
-         'rezidentlar.html', 'hayot.html', 'aloqa.html', 'rahmat.html']
+         'rezidentlar.html', 'hayot.html', 'aloqa.html', 'rahmat.html',
+         'maqola-syomka-19-noyabr.html']
 DOMAIN = 'https://makoncoworking.uz/'
 LANGS = ['uz', 'ru', 'en']
 LABEL = {'uz': 'Til', 'ru': 'Язык', 'en': 'Language'}
@@ -121,7 +122,7 @@ def build_lang(src, lang, page):
     src = src.replace('<html lang="uz">', '<html lang="%s">' % lang, 1)
     src = re.sub(r'<meta property="og:url" content="[^"]*">',
                  '<meta property="og:url" content="%s">' % page_url(lang, page), src, count=1)
-    src = src.replace('src="assets/', 'src="../assets/').replace('href="assets/', 'href="../assets/')
+    src = src.replace('src="assets/', 'src="../assets/').replace('href="assets/', 'href="../assets/').replace('poster="assets/', 'poster="../assets/')
     btn = {'ru': ("'Отправляем...'", "'Отправить ещё раз'"), 'en': ("'Sending...'", "'Send again'")}[lang]
     src = src.replace("'Yuborilmoqda...'", btn[0]).replace("'Qayta yuborish'", btn[1])
     return common(src, lang, page)

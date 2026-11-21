@@ -131,7 +131,7 @@ T = [
  ("Исламские знания о правилах торговли", "Islamic principles of trade"),  # 127
  ("Записаться на курс", "Sign up for the course"),  # 128
  ("Занятий", "Lessons"),  # 129
- ("12", "12"),  # 130
+ ("13", "13"),  # 130
  ("В группе", "Group size"),  # 131
  ("8 человек", "8 people"),  # 132
  ("Старт", "Starts"),  # 133
@@ -286,4 +286,31 @@ T = [
  ("Спасибо! Ваша заявка принята", "Thank you! Your request has been received"),  # 282
  ("Мы скоро с вами свяжемся. Если срочно:", "We'll be in touch soon. If it's urgent:"),  # 283
  ("Вернуться на главную", "Back to the home page"),  # 284
+# Maqola: 19-noyabr syomka (2026-11-21)
+ ("Ведущая Зилола на съёмке в Makon", "Presenter Zilola during filming at Makon"),  # 285
+ ("21 ноября 2026", "21 November 2026"),  # 286
+ ("Съёмка в Makon: видео о курсе «Kasbiy mahoratni oshirish»", "Filming at Makon: videos about the “Kasbiy mahoratni oshirish” course"),  # 287
+ ("19 ноября в Makon снимали видео для Instagram-страницы Madina Central Asia. Ведущая — Зилола.", "On 19 November, videos for Madina Central Asia's Instagram page were filmed at Makon. Presenter: Zilola."),  # 288
+ ("Читать →", "Read →"),  # 289
+ ("Съёмка в Makon: видео о курсе — Makon Coworking", "Filming at Makon: videos about the course — Makon Coworking"),  # 290
+ ("19 ноября в Makon сняли видео о курсе «Kasbiy mahoratni oshirish» для Madina Central Asia. Ведущая — Зилола.", "On 19 November, videos about the “Kasbiy mahoratni oshirish” course were filmed at Makon for Madina Central Asia. Presenter: Zilola."),  # 291
+ ("Статья", "Article"),  # 292
+ ("19 ноября в Makon снимали видео для Instagram-страницы Madina Central Asia. В них рассказывают о курсе «Kasbiy mahoratni oshirish», который проходит в Makon.", "On 19 November, videos for Madina Central Asia's Instagram page were filmed at Makon. They give information about the “Kasbiy mahoratni oshirish” course, which takes place at Makon."),  # 293
+ ("Съёмка прошла прямо в Makon, среди рабочих мест. Ведущая — Зилола. В кадр попал и интерьер Makon: рабочие места с компьютерами, кресла и терракотовая стена.", "The filming took place right inside Makon, among the workspaces. The presenter is Zilola. Makon's interior is in the shots too: desks with computers, armchairs and a terracotta wall."),  # 294
+ ("О курсе", "About the course"),  # 295
+ ("«Kasbiy mahoratni oshirish» — курс турагентства Madina Central Asia, занятия проходят в Makon. Курс для начинающих и тех, кто уже работает в туризме.", "“Kasbiy mahoratni oshirish” is a course run by the Madina Central Asia travel agency; classes take place at Makon. It is for beginners and for people already working in tourism."),  # 296
+ ("Подробнее о курсе и запись —", "More about the course and sign-up —"),  # 297
+ ("в разделе о курсе на главной странице", "in the course section on the home page"),  # 298
+ ("Съёмка в Makon, короткое видео", "Filming at Makon, short video"),  # 299
+ ("Фрагмент со съёмки", "A moment from the filming"),  # 300
+ ("Где посмотреть видео", "Where to watch the videos"),  # 301
+ ("Видео публикуются на Instagram-странице Madina Central Asia:", "The videos are posted on Madina Central Asia's Instagram page:"),  # 302
+ ("← Все статьи", "← All articles"),  # 303
+ ("Следите в Instagram →", "Follow on Instagram →"),  # 304
+# Maqola: kurs haqida qo'shimcha (2026-11-21)
+ ("Чему учат на курсе:", "What the course covers:"),  # 305
+ ("Практика.", "Practice."),  # 306
+ ("Вы поработаете в реальных системах бронирования туроператоров. Учебник и рабочая тетрадь выдаются в печатном виде, в конце курса — сертификат.", "You work in real tour operators' booking systems. The student book and workbook are given in print, and you receive a certificate at the end."),  # 307
+ ("Коротко:", "In short:"),  # 308
+ ("13 занятий, 15 тем · 8 человек в группе · 3 раза в неделю · стоимость $450 (не входит в членство Makon, оплачивается отдельно).", "13 lessons, 15 topics · 8 people per group · 3 times a week · price $450 (not included in Makon membership, paid separately)."),  # 309
 ]

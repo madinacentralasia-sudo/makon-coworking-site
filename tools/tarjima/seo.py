@@ -160,6 +160,42 @@ def website(lang):
     }
 
 
+# ---- "Makon hayotida" maqolalari (BlogPosting) ----
+MAQOLALAR = {
+    'maqola-syomka-19-noyabr.html': {
+        'date': '2026-11-21',
+        'image': DOMAIN + 'assets/maqola-syomka-zilola.jpg',
+        'uz': ("Makonda syomka: «Kasbiy mahoratni oshirish» kursi haqida videolar",
+               "19-noyabr kuni Makonda Madina Central Asia'ning Instagram sahifasi uchun videolar suratga olindi. "
+               "Videolarda Makonda o'tadigan «Kasbiy mahoratni oshirish» kursi haqida ma'lumot beriladi."),
+        'ru': ("Съёмка в Makon: видео о курсе «Kasbiy mahoratni oshirish»",
+               "19 ноября в Makon снимали видео для Instagram-страницы Madina Central Asia. "
+               "В них рассказывают о курсе «Kasbiy mahoratni oshirish», который проходит в Makon."),
+        'en': ("Filming at Makon: videos about the “Kasbiy mahoratni oshirish” course",
+               "On 19 November, videos for Madina Central Asia's Instagram page were filmed at Makon. "
+               "They give information about the “Kasbiy mahoratni oshirish” course, which takes place at Makon."),
+    },
+}
+
+
+def blog_posting(lang, page):
+    m = MAQOLALAR[page]
+    headline, desc = m[lang]
+    return {
+        '@context': 'https://schema.org',
+        '@type': 'BlogPosting',
+        'headline': headline,
+        'description': desc,
+        'datePublished': m['date'],
+        'inLanguage': lang,
+        'image': m['image'],
+        'mainEntityOfPage': page_url(lang, page),
+        'author': {'@type': 'Organization', 'name': 'Makon Coworking', 'url': DOMAIN},
+        'publisher': {'@id': BIZ_ID},
+        'about': {'@id': BIZ_ID},
+    }
+
+
 def ld_script(data, ident):
     body = json.dumps(data, ensure_ascii=False, indent=1)
     return '<script type="application/ld+json" id="%s">\n%s\n</script>\n' % (ident, body)
@@ -190,6 +226,8 @@ def apply(src, lang, page):
         blocks += ld_script(local_business(lang), 'ld-makon')
     if page == 'index.html':
         blocks += ld_script(website(lang), 'ld-sayt')
+    if page in MAQOLALAR:
+        blocks += ld_script(blog_posting(lang, page), 'ld-maqola')
     if blocks:
         src = src.replace('</head>', blocks + '</head>', 1)
 
@@ -204,7 +242,7 @@ def apply(src, lang, page):
 
 
 SITEMAP_PAGES = ['index.html', 'makon.html', 'galereya.html', 'azolik.html',
-                 'rezidentlar.html', 'hayot.html', 'aloqa.html']  # rahmat.html — kirmaydi (noindex)
+                 'rezidentlar.html', 'hayot.html', 'aloqa.html'] + list(MAQOLALAR)  # rahmat.html — kirmaydi (noindex)
 
 
 def write_sitemap(site_dir, extra_urls=()):

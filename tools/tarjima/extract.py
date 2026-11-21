@@ -1,6 +1,6 @@
 import json, re, sys
 from html.parser import HTMLParser
-PAGES=['index.html','makon.html','galereya.html','azolik.html','rezidentlar.html','hayot.html','aloqa.html','rahmat.html']
+PAGES=['index.html','makon.html','galereya.html','azolik.html','rezidentlar.html','hayot.html','aloqa.html','rahmat.html','maqola-syomka-19-noyabr.html']
 ATTRS={'placeholder','alt','title','aria-label'}
 class P(HTMLParser):
     def __init__(s):

@@ -5,9 +5,9 @@
 ## Key facts
 
 - Name: Makon Coworking (also "Makon", "Makon kovorking", "Коворкинг Makon")
-- Address: 11 Lashkarbegi Street, Akai City residential complex, Tashkent, Uzbekistan
-- Address in Uzbek: Toshkent, Lashkarbegi ko'chasi, 11, Akai City turar-joy majmuasi
-- Address in Russian: Ташкент, улица Лашкарбеги, 11, ЖК Akai City
+- Address: 11 Lashkarbegi Street, Akai City residential complex, 2nd floor, Tashkent, Uzbekistan
+- Address in Uzbek: Toshkent, Lashkarbegi ko'chasi, 11, Akai City turar-joy majmuasi, 2-qavat
+- Address in Russian: Ташкент, улица Лашкарбеги, 11, ЖК Akai City, 2 этаж
 - Getting there: 2-minute walk from Hamid Olimjon metro station; parking available
 - Opening hours: Monday to Saturday, 10:00–19:00; closed on Sunday
 - Desks: 15, each assigned to one resident
@@ -16,6 +16,7 @@
 - Website: https://makoncoworking.uz/
 - Instagram: https://www.instagram.com/makon_coworking/
 - Yandex Maps: https://yandex.uz/maps/org/233840017594/
+- Worka listing: https://www.worka.com/en/workplace/789b2ae9-73ab-4c14-bbdd-9d58ca59d19e
 
 ## Membership (monthly)
 
@@ -33,7 +34,7 @@ People who have their own work and want to grow: students, targeting specialists
 
 ## Common questions
 
-- Where is Makon? 11 Lashkarbegi Street, Akai City residential complex, Tashkent. 2 minutes on foot from Hamid Olimjon metro; parking available.
+- Where is Makon? 11 Lashkarbegi Street, Akai City residential complex, 2nd floor, Tashkent. 2 minutes on foot from Hamid Olimjon metro; parking available.
 - When is it open? Every day except Sunday, 10:00–19:00.
 - How much does it cost? $250 per month for Makon residents, $350 per month for travel agents.
 - Is the desk my own? Yes. Every resident gets a dedicated desk; there are 15 desks in total.
@@ -52,4 +53,4 @@ People who have their own work and want to grow: students, targeting specialists
 - Russian version: https://makoncoworking.uz/ru/
 - English version: https://makoncoworking.uz/en/
 
-Last updated: 2026-11-21
+Last updated: 2026-11-23

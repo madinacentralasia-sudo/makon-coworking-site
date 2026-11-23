@@ -34,17 +34,19 @@ FAKTLAR = {
     'sameAs': [
         'https://www.instagram.com/makon_coworking/',
         'https://yandex.uz/maps/org/233840017594/',
+        'https://www.worka.com/en/workplace/789b2ae9-73ab-4c14-bbdd-9d58ca59d19e',
     ],
     'hasMap': 'https://yandex.uz/maps/org/233840017594/',
     'priceRange': '$250–$350',
     'image': DOMAIN + 'assets/og-makon.png',
+    'logo': DOMAIN + 'assets/logo-makon.png',
 }
 
 # ---- Tilga bog'liq matnlar (saytdagi ko'rinadigan matnlar bilan bir xil) ----
 TIL = {
     'uz': {
         'description': "Toshkent markazidagi kovorking: o'z doimiy ish joyi, tinch muhit, kofe va kitoblar.",
-        'street': "Lashkarbegi ko'chasi, 11",
+        'street': "Lashkarbegi ko'chasi, 11, Akai City turar-joy majmuasi, 2-qavat",
         'city': 'Toshkent',
         'amenities': ['Wi-Fi', 'Bepul printer', 'Bepul shaxsiy shkaf', 'Parkovka', 'Doimiy ish joyi'],
         'payment': 'QR-kod (UzQR); naqd pul qabul qilinmaydi',
@@ -61,7 +63,7 @@ TIL = {
     },
     'ru': {
         'description': 'Коворкинг в центре Ташкента: своё постоянное рабочее место, спокойная атмосфера, кофе и книги.',
-        'street': 'улица Лашкарбеги, 11',
+        'street': 'улица Лашкарбеги, 11, ЖК Akai City, 2 этаж',
         'city': 'Ташкент',
         'amenities': ['Wi-Fi', 'Бесплатный принтер', 'Бесплатный личный шкафчик', 'Парковка',
                       'Постоянное рабочее место'],
@@ -80,7 +82,7 @@ TIL = {
     },
     'en': {
         'description': 'A coworking space in central Tashkent: your own dedicated desk, a calm atmosphere, coffee and books.',
-        'street': '11 Lashkarbegi Street',
+        'street': '11 Lashkarbegi Street, Akai City residential complex, 2nd floor',
         'city': 'Tashkent',
         'amenities': ['Wi-Fi', 'Free printer', 'Free personal locker', 'Parking', 'Dedicated desk'],
         'payment': 'QR code (UzQR); cash is not accepted',
@@ -114,6 +116,7 @@ def local_business(lang):
         'description': t['description'],
         'url': page_url(lang, 'index.html'),
         'image': FAKTLAR['image'],
+        'logo': FAKTLAR['logo'],
         'telephone': FAKTLAR['telephone'],
         'address': {
             '@type': 'PostalAddress',

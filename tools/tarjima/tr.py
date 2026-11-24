@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Tarjimalar: strings.json tartibida (0..284). Har bir qator: (ru, en). None = o'zgarmaydi.
+# Tarjimalar: strings.json tartibida (0..317). Har bir qator: (ru, en). None = o'zgarmaydi.
 T = [
  ("Makon Coworking — коворкинг в центре Ташкента", "Makon Coworking — a coworking space in central Tashkent"),  # 0
  ("Makon — коворкинг в центре Ташкента, улица Лашкарбеги, 11. Своё постоянное рабочее место, спокойная атмосфера, кофе и книги. Членство: $250 / мес, для турагентов — $350 / мес.", "Makon — a coworking space in central Tashkent, 11 Lashkarbegi Street. Your own dedicated desk, a calm atmosphere, coffee and books. Membership: $250 / month, for travel agents $350 / month."),  # 1
@@ -37,7 +37,7 @@ T = [
  ("Ни шума, ни посторонних — всё внимание только на работу.", "No noise and no strangers — your focus stays on your work."),  # 33
  ("Ваше постоянное рабочее место", "Your own dedicated desk"),  # 34
  ("Не нужно каждый день искать, где сесть: ваш стол ждёт вас.", "No hunting for a seat every day: your desk is waiting for you."),  # 35
- ("Wi-Fi и бесплатный принтер", "Wi-Fi and a free printer"),  # 36
+ ('Компьютеры, Wi-Fi и бесплатный принтер', 'Computers, Wi-Fi and a free printer'),  # 36
  ("Всё нужное для работы под рукой.", "Everything you need for work is at hand."),  # 37
  ("Бесплатный личный шкафчик", "A free personal locker"),  # 38
  ("Не нужно каждый день носить вещи с собой.", "No need to carry your things back and forth every day."),  # 39
@@ -88,7 +88,7 @@ T = [
  ("Для тех, у кого есть своё дело и кому нужно удобное, спокойное рабочее место.", "For people who have their own work and need a comfortable, quiet place to do it."),  # 84
  (None, None),  # 85 $250
  ("/ мес", "/ month"),  # 86
- ("Wi-Fi и бесплатный принтер", "Wi-Fi and a free printer"),  # 87
+ ('Компьютеры, Wi-Fi и бесплатный принтер', 'Computers, Wi-Fi and a free printer'),  # 87
  ("Книги для резидентов", "Books for residents"),  # 88
  ("Сообщество резидентов", "A community of residents"),  # 89
  ("10:00–19:00, кроме воскресенья", "10:00–19:00, except Sunday"),  # 90
@@ -97,7 +97,7 @@ T = [
  ("Идеально для турагентов, которые работают в одиночку, только начинают или переживают трудный период.", "Ideal for travel agents who work alone, are just starting out or are going through a hard time."),  # 93
  (None, None),  # 94 $350
  ("Все возможности резидентов", "Everything residents get"),  # 95
- ("Спокойная атмосфера, Wi-Fi, принтер, шкафчик, кофе и книги.", "A calm setting, Wi-Fi, printer, locker, coffee and books."),  # 96
+ ('Спокойная атмосфера, компьютеры, Wi-Fi, принтер, шкафчик, кофе и книги.', 'A calm setting, computers, Wi-Fi, printer, locker, coffee and books.'),  # 96
  ("Постоянно закреплённое рабочее место", "A permanently assigned desk"),  # 97
  ("Свой стол, за которым вы принимаете клиентов.", "Your own desk for meeting clients."),  # 98
  ("Лицензия для работы", "A licence to operate"),  # 99
@@ -161,7 +161,7 @@ T = [
  ("Сколько стоит членство?", "How much is membership?"),  # 157
  ("Для резидентов Makon — $250 в месяц, для турагентов — $350 в месяц.", "For Makon residents — $250 a month, for travel agents — $350 a month."),  # 158
  ("Что входит в стоимость?", "What's included?"),  # 159
- ("Своё постоянное рабочее место, Wi-Fi, бесплатный принтер, бесплатный личный шкафчик и книги для резидентов.", "Your own dedicated desk, Wi-Fi, a free printer, a free personal locker and books for residents."),  # 160
+ ('Своё постоянное рабочее место, компьютеры, Wi-Fi, бесплатный принтер, бесплатный личный шкафчик и книги для резидентов.', 'Your own dedicated desk, computers, Wi-Fi, a free printer, a free personal locker and books for residents.'),  # 160
  ("Что ещё есть в тарифе для турагентов?", "What else does the travel agent plan include?"),  # 161
  ("Все возможности резидентов, лицензия для работы, финансовые, юридические и организационные услуги, а также готовые заказы. Вы работаете из Makon, не открывая свой офис.", "Everything residents get, plus a licence to operate, financial, legal and organisational services, and ready client requests. You work from Makon without opening an office."),  # 162
  ("Для тех, у кого есть своё дело и кто хочет расти: студентов, таргетологов, фрилансеров, предпринимателей и турагентов.", "For people who have their own work and want to grow: students, targeting specialists, freelancers, entrepreneurs and travel agents."),  # 163
@@ -317,4 +317,9 @@ T = [
  ("Внутри Makon: рабочие места с компьютерами и надпись MAKON на стене", "Inside Makon: desks with computers and the MAKON sign on the wall"),  # 310
  ("Вход в Makon и вывеска", "Makon entrance and sign"),  # 311
  ("Внутри Makon: длинный рабочий стол и кресла", "Inside Makon: a long work table and armchairs"),  # 312
+ ('Компьютеры', 'Computers'),  # 313 Kompyuterlar
+ ('Можно прийти без ноутбука?', 'Can I come without a laptop?'),  # 314 Noutbuksiz kelsam bo'ladimi?
+ ('Да. В Makon есть компьютеры для резидентов, они входят в стоимость членства.', 'Yes. Makon has computers for residents, and they are included in the membership price.'),  # 315 FAQ javob: noutbuksiz
+ ('Рабочее место будет только моим?', 'Will the desk be mine only?'),  # 316 Ish joyim faqat menikimi?
+ ('Да. Каждый резидент получает своё постоянное рабочее место, всего в Makon 15 мест.', 'Yes. Every resident gets their own dedicated desk; Makon has 15 desks in total.'),  # 317 FAQ javob: doimiy joy
 ]

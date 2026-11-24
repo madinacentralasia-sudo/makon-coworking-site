@@ -48,12 +48,12 @@ TIL = {
         'description': "Toshkent markazidagi kovorking: o'z doimiy ish joyi, tinch muhit, kofe va kitoblar.",
         'street': "Lashkarbegi ko'chasi, 11, Akai City turar-joy majmuasi, 2-qavat",
         'city': 'Toshkent',
-        'amenities': ['Wi-Fi', 'Bepul printer', 'Bepul shaxsiy shkaf', 'Parkovka', 'Doimiy ish joyi'],
+        'amenities': ['Kompyuterlar', 'Wi-Fi', 'Bepul printer', 'Bepul shaxsiy shkaf', 'Parkovka', 'Doimiy ish joyi'],
         'payment': 'QR-kod (UzQR); naqd pul qabul qilinmaydi',
         'unit': 'oy',
         'offers': [
             ('Makon rezidentlari uchun', '250',
-             "Oylik a'zolik: doimiy ish joyi, Wi-Fi, bepul printer, bepul shaxsiy shkaf, kitoblar."),
+             "Oylik a'zolik: doimiy ish joyi, kompyuterlar, Wi-Fi, bepul printer, bepul shaxsiy shkaf, kitoblar."),
             ('Turagentlar uchun', '350',
              "Oylik a'zolik: rezidentlarning barcha imkoniyatlari, faoliyat uchun litsenziya, moliyaviy, "
              "huquqiy va tashkiliy xizmatlar, tayyor buyurtmalar."),
@@ -65,13 +65,13 @@ TIL = {
         'description': 'Коворкинг в центре Ташкента: своё постоянное рабочее место, спокойная атмосфера, кофе и книги.',
         'street': 'улица Лашкарбеги, 11, ЖК Akai City, 2 этаж',
         'city': 'Ташкент',
-        'amenities': ['Wi-Fi', 'Бесплатный принтер', 'Бесплатный личный шкафчик', 'Парковка',
+        'amenities': ['Компьютеры', 'Wi-Fi', 'Бесплатный принтер', 'Бесплатный личный шкафчик', 'Парковка',
                       'Постоянное рабочее место'],
         'payment': 'QR-код (UzQR); наличные не принимаются',
         'unit': 'месяц',
         'offers': [
             ('Для резидентов Makon', '250',
-             'Ежемесячное членство: постоянное рабочее место, Wi-Fi, бесплатный принтер, '
+             'Ежемесячное членство: постоянное рабочее место, компьютеры, Wi-Fi, бесплатный принтер, '
              'бесплатный личный шкафчик, книги.'),
             ('Для турагентов', '350',
              'Ежемесячное членство: все возможности резидентов, лицензия для работы, финансовые, '
@@ -84,12 +84,12 @@ TIL = {
         'description': 'A coworking space in central Tashkent: your own dedicated desk, a calm atmosphere, coffee and books.',
         'street': '11 Lashkarbegi Street, Akai City residential complex, 2nd floor',
         'city': 'Tashkent',
-        'amenities': ['Wi-Fi', 'Free printer', 'Free personal locker', 'Parking', 'Dedicated desk'],
+        'amenities': ['Computers', 'Wi-Fi', 'Free printer', 'Free personal locker', 'Parking', 'Dedicated desk'],
         'payment': 'QR code (UzQR); cash is not accepted',
         'unit': 'month',
         'offers': [
             ('For Makon residents', '250',
-             'Monthly membership: a dedicated desk, Wi-Fi, a free printer, a free personal locker, books.'),
+             'Monthly membership: a dedicated desk, computers, Wi-Fi, a free printer, a free personal locker, books.'),
             ('For travel agents', '350',
              'Monthly membership: everything residents get, a licence to operate, financial, legal and '
              'organisational services, ready client requests.'),

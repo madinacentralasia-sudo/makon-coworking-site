@@ -248,6 +248,23 @@ SITEMAP_PAGES = ['index.html', 'makon.html', 'galereya.html', 'azolik.html',
                  'rezidentlar.html', 'hayot.html', 'aloqa.html'] + list(MAQOLALAR)  # rahmat.html — kirmaydi (noindex)
 
 
+def page_images(site_dir, page):
+    """Sahifadagi suratlar (assets/ ichidagi .jpg/.jpeg/.webp) — to'liq manzil bilan, takrorlarsiz.
+    QR kod va logotip (.png) kirmaydi."""
+    import os
+    import re
+    try:
+        src = open(os.path.join(site_dir, page), encoding='utf-8').read()
+    except OSError:
+        return []
+    found = []
+    for m in re.finditer(r'<img\b[^>]*\bsrc="(assets/[^"]+\.(?:jpe?g|webp))"', src):
+        url = DOMAIN + m.group(1)
+        if url not in found:
+            found.append(url)
+    return found
+
+
 def write_sitemap(site_dir, extra_urls=()):
     """sitemap.xml: har sahifa 3 tilda, hreflang bilan, lastmod — build ishga tushgan sana."""
     import datetime
@@ -255,12 +272,16 @@ def write_sitemap(site_dir, extra_urls=()):
     today = datetime.date.today().isoformat()
     out = ['<?xml version="1.0" encoding="UTF-8"?>',
            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
-           'xmlns:xhtml="http://www.w3.org/1999/xhtml">']
+           'xmlns:xhtml="http://www.w3.org/1999/xhtml" '
+           'xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">']
     for page in SITEMAP_PAGES:
+        images = page_images(site_dir, page)
         for lang in ('uz', 'ru', 'en'):
             out.append(' <url>')
             out.append('  <loc>%s</loc>' % page_url(lang, page))
             out.append('  <lastmod>%s</lastmod>' % today)
+            for img in images:  # sahifadagi suratlar — rasm qidiruvi uchun
+                out.append('  <image:image><image:loc>%s</image:loc></image:image>' % img)
             for alt in ('uz', 'ru', 'en'):
                 out.append('  <xhtml:link rel="alternate" hreflang="%s" href="%s"/>' % (alt, page_url(alt, page)))
             out.append('  <xhtml:link rel="alternate" hreflang="x-default" href="%s"/>' % page_url('uz', page))

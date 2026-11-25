@@ -123,7 +123,7 @@ T = [
  ("Микрофон и оборудование", "Microphone and equipment"),  # 119
  ("Для видео, подкастов и других задач.", "For video, podcasts and other projects."),  # 120
  ("Расти в Makon", "Growing at Makon"),  # 121
- ("Курс повышения квалификации «Kasbiy mahoratni oshirish»", "“Kasbiy mahoratni oshirish” professional skills course"),  # 122
+ ("«Курс туризма и турагентского дела»", "Tourism and Travel Agency Course"),  # 122
  ("В Makon проходит курс турагентства Madina Central Asia. Резиденты учатся, не выходя с рабочего места. Для начинающих и тех, кто уже работает в сфере.", "Makon hosts a course run by the Madina Central Asia travel agency. Residents learn without leaving their desks. For beginners and for people already working in the field."),  # 123
  ("Практические занятия по туризму", "Hands-on tourism classes"),  # 124
  ("Антикризисная стратегия и маркетинг", "Anti-crisis strategy and marketing"),  # 125
@@ -259,7 +259,7 @@ T = [
  ("Как продлить членство?", "How do I extend my membership?"),  # 255
  ("Оплатите следующий месяц не позднее чем за 1 день до окончания срока.", "Pay for the next month at least 1 day before your term ends."),  # 256
  ("Входит ли курс в членство?", "Is the course included in membership?"),  # 257
- ("Нет. Курс «Kasbiy mahoratni oshirish» оплачивается отдельно.", "No. The “Kasbiy mahoratni oshirish” course is paid for separately."),  # 258
+ ("Нет. «Курс туризма и турагентского дела» оплачивается отдельно.", "No. The Tourism and Travel Agency Course is paid for separately."),  # 258
  ("Резиденты — Makon Coworking", "Residents — Makon Coworking"),  # 259
  ("Резиденты Makon: отзывы, фото и видео людей, которые работают в коворкинге в центре Ташкента.", "Makon residents: reviews, photos and videos from people who work at the coworking space in central Tashkent."),  # 260
  ("резиденты", "residents"),  # 261
@@ -289,16 +289,16 @@ T = [
 # Maqola: 19-noyabr syomka (2026-11-21)
  ("Ведущая Зилола на съёмке в Makon", "Presenter Zilola during filming at Makon"),  # 285
  ("21 ноября 2026", "21 November 2026"),  # 286
- ("Съёмка в Makon: видео о курсе «Kasbiy mahoratni oshirish»", "Filming at Makon: videos about the “Kasbiy mahoratni oshirish” course"),  # 287
+ ("Съёмка в Makon: видео о «Курсе туризма и турагентского дела»", "Filming at Makon: videos about the Tourism and Travel Agency Course"),  # 287
  ("19 ноября в Makon снимали видео для Instagram-страницы Madina Central Asia. Ведущая — Зилола.", "On 19 November, videos for Madina Central Asia's Instagram page were filmed at Makon. Presenter: Zilola."),  # 288
  ("Читать →", "Read →"),  # 289
  ("Съёмка в Makon: видео о курсе — Makon Coworking", "Filming at Makon: videos about the course — Makon Coworking"),  # 290
- ("19 ноября в Makon сняли видео о курсе «Kasbiy mahoratni oshirish» для Madina Central Asia. Ведущая — Зилола.", "On 19 November, videos about the “Kasbiy mahoratni oshirish” course were filmed at Makon for Madina Central Asia. Presenter: Zilola."),  # 291
+ ("19 ноября в Makon сняли видео о «Курсе туризма и турагентского дела» для Madina Central Asia. Ведущая — Зилола.", "On 19 November, videos about the Tourism and Travel Agency Course were filmed at Makon for Madina Central Asia. Presenter: Zilola."),  # 291
  ("Статья", "Article"),  # 292
- ("19 ноября в Makon снимали видео для Instagram-страницы Madina Central Asia. В них рассказывают о курсе «Kasbiy mahoratni oshirish», который проходит в Makon.", "On 19 November, videos for Madina Central Asia's Instagram page were filmed at Makon. They give information about the “Kasbiy mahoratni oshirish” course, which takes place at Makon."),  # 293
+ ("19 ноября в Makon снимали видео для Instagram-страницы Madina Central Asia. В них рассказывают о «Курсе туризма и турагентского дела», который проходит в Makon.", "On 19 November, videos for Madina Central Asia's Instagram page were filmed at Makon. They give information about the Tourism and Travel Agency Course, which takes place at Makon."),  # 293
  ("Съёмка прошла прямо в Makon, среди рабочих мест. Ведущая — Зилола. В кадр попал и интерьер Makon: рабочие места с компьютерами, кресла и терракотовая стена.", "The filming took place right inside Makon, among the workspaces. The presenter is Zilola. Makon's interior is in the shots too: desks with computers, armchairs and a terracotta wall."),  # 294
  ("О курсе", "About the course"),  # 295
- ("«Kasbiy mahoratni oshirish» — курс турагентства Madina Central Asia, занятия проходят в Makon. Курс для начинающих и тех, кто уже работает в туризме.", "“Kasbiy mahoratni oshirish” is a course run by the Madina Central Asia travel agency; classes take place at Makon. It is for beginners and for people already working in tourism."),  # 296
+ ("«Курс туризма и турагентского дела» — курс турагентства Madina Central Asia, занятия проходят в Makon. Курс для начинающих и тех, кто уже работает в туризме.", "The Tourism and Travel Agency Course is run by the Madina Central Asia travel agency; classes take place at Makon. It is for beginners and for people already working in tourism."),  # 296
  ("Подробнее о курсе и запись —", "More about the course and sign-up —"),  # 297
  ("в разделе о курсе на главной странице", "in the course section on the home page"),  # 298
  ("Съёмка в Makon, короткое видео", "Filming at Makon, short video"),  # 299

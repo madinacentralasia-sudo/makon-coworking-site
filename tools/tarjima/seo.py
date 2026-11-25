@@ -168,15 +168,15 @@ MAQOLALAR = {
     'maqola-syomka-19-noyabr.html': {
         'date': '2026-11-21',
         'image': DOMAIN + 'assets/maqola-syomka-zilola.jpg',
-        'uz': ("Makonda syomka: «Kasbiy mahoratni oshirish» kursi haqida videolar",
+        'uz': ("Makonda syomka: «Turizm va turagentlik kursi» haqida videolar",
                "19-noyabr kuni Makonda Madina Central Asia'ning Instagram sahifasi uchun videolar suratga olindi. "
-               "Videolarda Makonda o'tadigan «Kasbiy mahoratni oshirish» kursi haqida ma'lumot beriladi."),
-        'ru': ("Съёмка в Makon: видео о курсе «Kasbiy mahoratni oshirish»",
+               "Videolarda Makonda o'tadigan «Turizm va turagentlik kursi» haqida ma'lumot beriladi."),
+        'ru': ("Съёмка в Makon: видео о «Курсе туризма и турагентского дела»",
                "19 ноября в Makon снимали видео для Instagram-страницы Madina Central Asia. "
-               "В них рассказывают о курсе «Kasbiy mahoratni oshirish», который проходит в Makon."),
-        'en': ("Filming at Makon: videos about the “Kasbiy mahoratni oshirish” course",
+               "В них рассказывают о «Курсе туризма и турагентского дела», который проходит в Makon."),
+        'en': ("Filming at Makon: videos about the Tourism and Travel Agency Course",
                "On 19 November, videos for Madina Central Asia's Instagram page were filmed at Makon. "
-               "They give information about the “Kasbiy mahoratni oshirish” course, which takes place at Makon."),
+               "They give information about the Tourism and Travel Agency Course, which takes place at Makon."),
     },
 }
 

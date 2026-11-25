@@ -30,3 +30,7 @@ O'zgarish taklif qilinadi → "roziman" so'zidan keyin kiritiladi → avval shu 
 - `llms.txt` — AI uchun Makon haqida qisqa faktlar.
 - IndexNow kaliti: `cc4c4b194a14819384667ce4a5974e10.txt` (Bing, Yandex va boshqa IndexNow qidiruvlariga yangi sahifalar haqida xabar berish uchun). Faylni o'chirmang.
 - Google Search Console va Yandex Webmaster tasdiqlash kodlari `index.html` ichida (`google-site-verification`, `yandex-verification`) — o'chirmang.
+
+## Statistika
+
+Yandex Metrika hisoblagichi № 114662208 (akkaunt: madinacentralasia@gmail.com) — kodi hamma sahifalarning `<head>` qismida va `templates/maqola-namuna.html` da. Vebvizor o'chirilgan.

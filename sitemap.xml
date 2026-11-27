@@ -141,6 +141,7 @@
  <url>
   <loc>https://makoncoworking.uz/hayot.html</loc>
   <lastmod>2026-11-27</lastmod>
+  <image:image><image:loc>https://makoncoworking.uz/assets/galereya-zal-1.jpg</image:loc></image:image>
   <image:image><image:loc>https://makoncoworking.uz/assets/maqola-syomka-zilola.jpg</image:loc></image:image>
   <xhtml:link rel="alternate" hreflang="uz" href="https://makoncoworking.uz/hayot.html"/>
   <xhtml:link rel="alternate" hreflang="ru" href="https://makoncoworking.uz/ru/hayot.html"/>
@@ -150,6 +151,7 @@
  <url>
   <loc>https://makoncoworking.uz/ru/hayot.html</loc>
   <lastmod>2026-11-27</lastmod>
+  <image:image><image:loc>https://makoncoworking.uz/assets/galereya-zal-1.jpg</image:loc></image:image>
   <image:image><image:loc>https://makoncoworking.uz/assets/maqola-syomka-zilola.jpg</image:loc></image:image>
   <xhtml:link rel="alternate" hreflang="uz" href="https://makoncoworking.uz/hayot.html"/>
   <xhtml:link rel="alternate" hreflang="ru" href="https://makoncoworking.uz/ru/hayot.html"/>
@@ -159,6 +161,7 @@
  <url>
   <loc>https://makoncoworking.uz/en/hayot.html</loc>
   <lastmod>2026-11-27</lastmod>
+  <image:image><image:loc>https://makoncoworking.uz/assets/galereya-zal-1.jpg</image:loc></image:image>
   <image:image><image:loc>https://makoncoworking.uz/assets/maqola-syomka-zilola.jpg</image:loc></image:image>
   <xhtml:link rel="alternate" hreflang="uz" href="https://makoncoworking.uz/hayot.html"/>
   <xhtml:link rel="alternate" hreflang="ru" href="https://makoncoworking.uz/ru/hayot.html"/>
@@ -215,5 +218,32 @@
   <xhtml:link rel="alternate" hreflang="ru" href="https://makoncoworking.uz/ru/maqola-syomka-19-noyabr.html"/>
   <xhtml:link rel="alternate" hreflang="en" href="https://makoncoworking.uz/en/maqola-syomka-19-noyabr.html"/>
   <xhtml:link rel="alternate" hreflang="x-default" href="https://makoncoworking.uz/maqola-syomka-19-noyabr.html"/>
+ </url>
+ <url>
+  <loc>https://makoncoworking.uz/kovorking-tanlash.html</loc>
+  <lastmod>2026-11-27</lastmod>
+  <image:image><image:loc>https://makoncoworking.uz/assets/galereya-zal-1.jpg</image:loc></image:image>
+  <xhtml:link rel="alternate" hreflang="uz" href="https://makoncoworking.uz/kovorking-tanlash.html"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://makoncoworking.uz/ru/kovorking-tanlash.html"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://makoncoworking.uz/en/kovorking-tanlash.html"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://makoncoworking.uz/kovorking-tanlash.html"/>
+ </url>
+ <url>
+  <loc>https://makoncoworking.uz/ru/kovorking-tanlash.html</loc>
+  <lastmod>2026-11-27</lastmod>
+  <image:image><image:loc>https://makoncoworking.uz/assets/galereya-zal-1.jpg</image:loc></image:image>
+  <xhtml:link rel="alternate" hreflang="uz" href="https://makoncoworking.uz/kovorking-tanlash.html"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://makoncoworking.uz/ru/kovorking-tanlash.html"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://makoncoworking.uz/en/kovorking-tanlash.html"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://makoncoworking.uz/kovorking-tanlash.html"/>
+ </url>
+ <url>
+  <loc>https://makoncoworking.uz/en/kovorking-tanlash.html</loc>
+  <lastmod>2026-11-27</lastmod>
+  <image:image><image:loc>https://makoncoworking.uz/assets/galereya-zal-1.jpg</image:loc></image:image>
+  <xhtml:link rel="alternate" hreflang="uz" href="https://makoncoworking.uz/kovorking-tanlash.html"/>
+  <xhtml:link rel="alternate" hreflang="ru" href="https://makoncoworking.uz/ru/kovorking-tanlash.html"/>
+  <xhtml:link rel="alternate" hreflang="en" href="https://makoncoworking.uz/en/kovorking-tanlash.html"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://makoncoworking.uz/kovorking-tanlash.html"/>
  </url>
 </urlset>

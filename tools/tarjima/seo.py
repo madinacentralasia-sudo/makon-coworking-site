@@ -180,6 +180,19 @@ MAQOLALAR = {
                "On 19 November, videos for Madina Central Asia's Instagram page were filmed at Makon. "
                "They give information about the Tourism and Travel Agency Course, which takes place at Makon."),
     },
+    'kovorking-tanlash.html': {
+        'date': '2026-11-27',
+        'image': DOMAIN + 'assets/galereya-zal-1.jpg',
+        'uz': ("Toshkentda kovorking tanlash: vaqt va pulni yo'qotadigan 7 ta xato",
+               "Arzon kovorking nega qimmatga tushadi? Toshkentda kovorking tanlashda ko'p uchraydigan 7 ta xato, "
+               "oddiy hisob-kitob va Makon misolida aniq javoblar."),
+        'ru': ("Как выбрать коворкинг в Ташкенте: 7 ошибок, которые стоят времени и денег",
+               "Почему дешёвый коворкинг обходится дорого? 7 частых ошибок при выборе коворкинга в Ташкенте, "
+               "простой расчёт и конкретные ответы на примере Makon."),
+        'en': ("Choosing a coworking space in Tashkent: 7 mistakes that cost you time and money",
+               "Why does a cheap coworking space end up costing more? 7 common mistakes when choosing a coworking space "
+               "in Tashkent, simple maths and clear answers using Makon as an example."),
+    },
 }
 
 

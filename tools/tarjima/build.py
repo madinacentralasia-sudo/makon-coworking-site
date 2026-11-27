@@ -19,7 +19,7 @@ for s, (ru, en) in zip(STR, T):
 
 PAGES = ['index.html', 'makon.html', 'galereya.html', 'azolik.html',
          'rezidentlar.html', 'hayot.html', 'aloqa.html', 'rahmat.html',
-         'maqola-syomka-19-noyabr.html']
+         'maqola-syomka-19-noyabr.html', 'kovorking-tanlash.html']
 DOMAIN = 'https://makoncoworking.uz/'
 LANGS = ['uz', 'ru', 'en']
 LABEL = {'uz': 'Til', 'ru': 'Язык', 'en': 'Language'}

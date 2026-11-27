@@ -35,6 +35,8 @@ FAKTLAR = {
         'https://www.instagram.com/makon_coworking/',
         'https://yandex.uz/maps/org/233840017594/',
         'https://www.worka.com/en/workplace/789b2ae9-73ab-4c14-bbdd-9d58ca59d19e',
+        'https://g.page/r/CURgSQPNN5rjEBM',
+        'https://www.instantoffices.com/de/uz/buroraume/tashkent/lashkarbegi-street-789b2ae9-73ab-4c14-bbdd-9d58ca59d19e',
     ],
     'hasMap': 'https://yandex.uz/maps/org/233840017594/',
     'priceRange': '$250–$350',

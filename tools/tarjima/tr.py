@@ -2,7 +2,7 @@
 # Tarjimalar: strings.json tartibida (0..317). Har bir qator: (ru, en). None = o'zgarmaydi.
 T = [
  ("Makon Coworking — коворкинг в центре Ташкента", "Makon Coworking — a coworking space in central Tashkent"),  # 0
- ("Makon — коворкинг в центре Ташкента, улица Лашкарбеги, 11. Своё постоянное рабочее место, спокойная атмосфера, кофе и книги. Членство: $250 / мес, для турагентов — $350 / мес.", "Makon — a coworking space in central Tashkent, 11 Lashkarbegi Street. Your own dedicated desk, a calm atmosphere, coffee and books. Membership: $250 / month, for travel agents $350 / month."),  # 1
+ ("Makon — коворкинг в центре Ташкента, ул. Лашкарбеги, 11. Своё постоянное рабочее место, спокойная атмосфера. $250 / мес, для турагентов — $350 / мес.", "Makon — a coworking space in central Tashkent, 11 Lashkarbegi St. Your own dedicated desk in a calm setting. $250 / month, travel agents $350 / month."),  # 1
  (None, None),  # 2 makon
  (None, None),  # 3 .
  ("Главное меню", "Main menu"),  # 4
@@ -314,9 +314,9 @@ T = [
  ("Коротко:", "In short:"),  # 308
  ("13 занятий, 15 тем · 8 человек в группе · 3 раза в неделю · стоимость $450 (не входит в членство Makon, оплачивается отдельно).", "13 lessons, 15 topics · 8 people per group · 3 times a week · price $450 (not included in Makon membership, paid separately)."),  # 309
 # Fotogalereya (2026-11-21)
- ("Внутри Makon: рабочие места с компьютерами и надпись MAKON на стене", "Inside Makon: desks with computers and the MAKON sign on the wall"),  # 310
- ("Вход в Makon и вывеска", "Makon entrance and sign"),  # 311
- ("Внутри Makon: длинный рабочий стол и кресла", "Inside Makon: a long work table and armchairs"),  # 312
+ ("Коворкинг Makon в Ташкенте: рабочие места с компьютерами и надпись MAKON на стене", "Makon coworking space in Tashkent: desks with computers and the MAKON sign on the wall"),  # 310
+ ("Вход в коворкинг Makon в Ташкенте и вывеска MAKON", "Entrance and sign of Makon coworking space, Tashkent"),  # 311
+ ("Коворкинг Makon в Ташкенте: длинный рабочий стол и кресла", "Makon coworking, Tashkent: a long work table and armchairs"),  # 312
  ('Компьютеры', 'Computers'),  # 313 Kompyuterlar
  ('Можно прийти без ноутбука?', 'Can I come without a laptop?'),  # 314 Noutbuksiz kelsam bo'ladimi?
  ('Да. В Makon есть компьютеры для резидентов, они входят в стоимость членства.', 'Yes. Makon has computers for residents, and they are included in the membership price.'),  # 315 FAQ javob: noutbuksiz
@@ -326,8 +326,8 @@ T = [
  ("27 ноября 2026", "27 November 2026"),  # 319 kovorking-tanlash
  ("Как выбрать коворкинг в Ташкенте: 7 ошибок, которые стоят времени и денег", "Choosing a coworking space in Tashkent: 7 mistakes that cost you time and money"),  # 320 kovorking-tanlash
  ("Почему дешёвый коворкинг обходится дорого? Простой расчёт и ответы на примере Makon.", "Why does a cheap coworking space end up costing more? Simple maths and answers using Makon as an example."),  # 321 kovorking-tanlash
- ("Как выбрать коворкинг в Ташкенте: 7 ошибок, которые стоят времени и денег — Makon Coworking", "Choosing a coworking space in Tashkent: 7 mistakes that cost you time and money — Makon Coworking"),  # 322 kovorking-tanlash
- ("Почему дешёвый коворкинг обходится дорого? 7 частых ошибок при выборе коворкинга в Ташкенте, простой расчёт и конкретные ответы на примере Makon.", "Why does a cheap coworking space end up costing more? 7 common mistakes when choosing a coworking space in Tashkent, simple maths and clear answers using Makon as an example."),  # 323 kovorking-tanlash
+ ("Как выбрать коворкинг в Ташкенте: 7 ошибок — Makon Coworking", "Choosing a coworking space in Tashkent: 7 mistakes — Makon"),  # 322 kovorking-tanlash
+ ("Почему дешёвый коворкинг обходится дорого? 7 частых ошибок при выборе коворкинга в Ташкенте, простой расчёт и конкретные ответы на примере Makon.", "Why does a cheap coworking space cost more? 7 common mistakes when choosing a coworking space in Tashkent, simple maths and clear answers from Makon."),  # 323 kovorking-tanlash
  ("Почему дешёвый коворкинг в итоге обходится дорого? Цена за месяц видна в объявлении, а потери — нет. Посчитаем их вместе.", "Why does a cheap coworking space end up costing more? The monthly price is in the listing, the losses are not. Let's count them together."),  # 324 kovorking-tanlash
  ("Выбирая коворкинг, чаще всего задают один вопрос: «Сколько в месяц?» Вопрос правильный, но его недостаточно. Настоящая цена становится видна в конце месяца: часы в дороге, поиски свободного стола, платежи «это в цену не входит» и рассеянное внимание.", "When choosing a coworking space, most people ask one question: \"How much per month?\" It is the right question, but not enough. The real price shows up at the end of the month: hours on the road, hunting for a free desk, \"that's not included\" charges and broken focus."),  # 325 kovorking-tanlash
  ("Ниже — 7 самых частых ошибок при выборе коворкинга. В каждой есть простой расчёт: подставьте в него свои цифры.", "Below are the 7 most common mistakes people make when choosing a coworking space. Each one comes with a simple calculation: plug in your own numbers."),  # 326 kovorking-tanlash
@@ -378,4 +378,6 @@ T = [
  ("Текст и фото всего не покажут. Посидите в кресле, проверьте интернет, засеките, сколько времени уходит на дорогу. Заранее", "Words and photos do not show everything. Sit in the chair, test the internet, time your commute. Book"),  # 371 kovorking-tanlash
  ("запишитесь на визит", "a visit in advance"),  # 372 kovorking-tanlash
  ("Условия членства →", "Membership terms →"),  # 373 kovorking-tanlash
+# SEO: bosh sahifa H1 (2026-11-28)
+ ("Коворкинг · Ташкент, ул. Лашкарбеги, 11", "Coworking · 11 Lashkarbegi St, Tashkent"),  # 374 index
 ]

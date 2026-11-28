@@ -1,0 +1,68 @@
+# Saytdagi o'zgargan sahifalar haqida IndexNow orqali Bing, Yandex va boshqa
+# qidiruv tizimlariga avtomatik xabar beradi (main ga har push'dan keyin).
+# Qo'lda ishga tushirilsa (Run workflow), sitemap.xml dagi hamma sahifalar yuboriladi.
+# Kalit fayli: cc4c4b194a14819384667ce4a5974e10.txt (sayt ildizida, o'chirmang).
+name: IndexNow
+
+on:
+  push:
+    branches: [main]
+    paths: ['**.html', 'sitemap.xml']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  indexnow:
+    runs-on: ubuntu-latest
+    env:
+      HOST: makoncoworking.uz
+      KEY: cc4c4b194a14819384667ce4a5974e10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Yuboriladigan sahifalar ro'yxati
+        env:
+          EVENT: ${{ github.event_name }}
+          BEFORE: ${{ github.event.before }}
+        run: |
+          python3 - <<'PY'
+          import json, os, re, subprocess
+          host = os.environ['HOST']
+          if os.environ['EVENT'] == 'workflow_dispatch':
+              urls = re.findall(r'<loc>([^<]+)</loc>', open('sitemap.xml', encoding='utf-8').read())
+          else:
+              before = os.environ.get('BEFORE', '')
+              base = before if before and set(before) != {'0'} else 'HEAD~1'
+              files = subprocess.run(['git', 'diff', '--name-only', base, 'HEAD'],
+                                     capture_output=True, text=True, check=True).stdout.split()
+              urls = []
+              for f in files:
+                  if not f.endswith('.html') or f.startswith(('templates/', 'tools/', 'scripts/', '.github/')):
+                      continue
+                  if f.endswith('rahmat.html') or not os.path.exists(f):
+                      continue
+                  path = f[:-len('index.html')] if f.endswith('index.html') else f
+                  urls.append('https://%s/%s' % (host, path))
+          urls = sorted(set(urls))
+          print('\n'.join(urls) or "Yuboriladigan sahifa yo'q")
+          json.dump({'host': host, 'key': os.environ['KEY'],
+                     'keyLocation': 'https://%s/%s.txt' % (host, os.environ['KEY']),
+                     'urlList': urls}, open('/tmp/indexnow.json', 'w'))
+          open(os.environ['GITHUB_ENV'], 'a').write('URL_COUNT=%d\n' % len(urls))
+          PY
+
+      - name: GitHub Pages yangilanishini kutish
+        if: env.URL_COUNT != '0' && github.event_name == 'push'
+        run: sleep 120
+
+      - name: IndexNow'ga yuborish
+        if: env.URL_COUNT != '0'
+        run: |
+          code=$(curl -s -o /tmp/javob.txt -w '%{http_code}' -X POST 'https://api.indexnow.org/indexnow' \
+            -H 'Content-Type: application/json; charset=utf-8' --data @/tmp/indexnow.json)
+          echo "IndexNow javobi: HTTP $code"; cat /tmp/javob.txt; echo
+          case "$code" in 200|202) ;; *) exit 1 ;; esac

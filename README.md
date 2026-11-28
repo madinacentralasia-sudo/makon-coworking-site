@@ -29,6 +29,7 @@ O'zgarish taklif qilinadi → "roziman" so'zidan keyin kiritiladi → avval shu 
 - Faktlar (manzil, telefon, ish vaqti, narx) o'zgarsa: sahifa matni + `seo.py` (FAKTLAR, TIL) + `llms.txt` — uchalasi birga yangilanadi.
 - `llms.txt` — AI uchun Makon haqida qisqa faktlar.
 - IndexNow kaliti: `cc4c4b194a14819384667ce4a5974e10.txt` (Bing, Yandex va boshqa IndexNow qidiruvlariga yangi sahifalar haqida xabar berish uchun). Faylni o'chirmang.
+- IndexNow avtomatik: `.github/workflows/indexnow.yml` — `main` ga har push'dan 2 daqiqa keyin o'zgargan sahifalarni yuboradi. GitHub → Actions → IndexNow → "Run workflow" bosilsa, sitemap'dagi hamma sahifalar yuboriladi (2026-11-28 dan).
 - Google Search Console va Yandex Webmaster tasdiqlash kodlari `index.html` ichida (`google-site-verification`, `yandex-verification`) — o'chirmang.
 
 ## Statistika
